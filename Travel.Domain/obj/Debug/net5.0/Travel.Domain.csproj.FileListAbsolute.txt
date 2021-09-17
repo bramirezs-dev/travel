@@ -1,0 +1,12 @@
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\bin\Debug\net5.0\Travel.Domain.deps.json
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\bin\Debug\net5.0\Travel.Domain.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\bin\Debug\net5.0\ref\Travel.Domain.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\bin\Debug\net5.0\Travel.Domain.pdb
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\obj\Debug\net5.0\Travel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\obj\Debug\net5.0\Travel.Domain.AssemblyInfoInputs.cache
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\obj\Debug\net5.0\Travel.Domain.AssemblyInfo.cs
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\obj\Debug\net5.0\Travel.Domain.csproj.CoreCompileInputs.cache
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\obj\Debug\net5.0\Travel.Domain.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\obj\Debug\net5.0\ref\Travel.Domain.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\obj\Debug\net5.0\Travel.Domain.pdb
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Domain\obj\Debug\net5.0\Travel.Domain.csproj.AssemblyReference.cache

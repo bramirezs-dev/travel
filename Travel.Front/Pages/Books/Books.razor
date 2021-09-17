@@ -1,0 +1,38 @@
+﻿@page "/books"
+@inject HttpClient Http
+@using Travel.Application.DTOs
+@using Travel.Application.Wrappers
+@using Blazorise
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <ListGeneric List="@BooksList">
+        <ThereRecords Context="book">
+
+            <IndividualBook Book="book" />
+
+        </ThereRecords>
+    </ListGeneric>
+</div>
+
+
+@code {
+
+
+    public ResponseSuccessful<List<BookDTO>> Response { get; set; }
+
+    List<BookDTO> BooksList { get; set; } = new List<BookDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Response = await Http.GetFromJsonAsync<ResponseSuccessful<List<BookDTO>>>("http://localhost:23369/api/BookDetails");
+        foreach (var item in Response.Data)
+        {
+            if (Response.RequestResult)
+            {
+                BooksList.Add(item);
+            }
+        }
+
+    }
+
+}

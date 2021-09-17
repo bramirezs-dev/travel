@@ -1,0 +1,6 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\AccionesValores\Person\Codigo\net\Travel\Travel.Front\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\AccionesValores\Person\Codigo\net\Travel\Travel.Front\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/Blazorise" Path="C:\Users\Brian Ramirez\.nuget\packages\blazorise\0.9.4.3\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Blazorise.Bootstrap" Path="C:\Users\Brian Ramirez\.nuget\packages\blazorise.bootstrap\0.9.4.3\build\..\staticwebassets\" />
+</StaticWebAssets>

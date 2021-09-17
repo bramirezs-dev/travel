@@ -1,0 +1,61 @@
+﻿@using static Travel.Front.Shared.MainLayout;
+<div class="top-row pl-4 navbar navbar-dark">
+    <a class="navbar-brand" href="/books">
+        <img src="./images/Travel.png" style="width:10px;height:10px" />
+        <span>Travel</span>
+    </a>
+    <button class="navbar-toggler"  @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column" >
+        @*<li class="nav-item px-3" style="color:@appState.ColorWordNav">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </li>
+        <li class="nav-item px-3" style="color:@appState.ColorWordNav">
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            </NavLink>
+        </li>
+        <li class="nav-item px-3" style="color:@appState.ColorWordNav">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </li>*@
+
+
+        <li class="nav-item px-3" >
+            <NavLink class="nav-link" href="books">
+                <span class="oi oi-list-rich" aria-hidden="true" style="color:@appState.ColorWordNav"></span> Libros
+            </NavLink>
+        </li>
+
+        @*<li class="nav-item px-3" style="color:@appState.ColorWordNav">
+            <NavLink class="nav-link" href="Autores">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Autores
+            </NavLink>
+        </li>
+        <li class="nav-item px-3" style="color:@appState.ColorWordNav">
+            <NavLink class="nav-link" href="Editoriales">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Editoriales
+            </NavLink>
+        </li>*@
+    </ul>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    [CascadingParameter] protected AppState appState { get; set; }
+}

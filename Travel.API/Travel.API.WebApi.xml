@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+  <assembly>
+  <name>Travel.API</name>
+  </assembly>
+  <members>
+    <member name="M:Travel.API.Controllers.v1.BookDetailsController.Get">
+      <summary>
+        Se obtienes todos los libros
+      </summary>
+      <response code="200">Consulta correcta de libros</response>
+    </member>
+  </members>
+</doc>

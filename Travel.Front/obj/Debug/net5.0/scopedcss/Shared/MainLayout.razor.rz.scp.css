@@ -1,0 +1,99 @@
+.page[b-tbr42sty4s] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.thema-one[b-tbr42sty4s] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    background: -prefix-linear-gradient(left top, #F2F2F2, #3E5159);
+    background: linear-gradient(to bottom right, #F2F2F2, #3E5159);
+}
+
+.thema-two[b-tbr42sty4s] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: -prefix-linear-gradient(left top, #3E5159, #07D9B2);
+    background: linear-gradient(to bottom right, #3E5159, #07D9B2);
+    margin: 10px;
+}
+
+    .thema-two:hover[b-tbr42sty4s] {
+        width: 25px;
+        height: 25px;
+        cursor:pointer;
+    }
+.thema-one:hover[b-tbr42sty4s] {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.main[b-tbr42sty4s] {
+    flex: 1;
+}
+
+/*.sidebar {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}*/
+
+.top-row[b-tbr42sty4s] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-tbr42sty4s]  a, .top-row .btn-link[b-tbr42sty4s] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-tbr42sty4s] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-tbr42sty4s] {
+        display: none;
+    }
+
+    .top-row.auth[b-tbr42sty4s] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-tbr42sty4s], .top-row .btn-link[b-tbr42sty4s] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-tbr42sty4s] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-tbr42sty4s] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-tbr42sty4s] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-tbr42sty4s] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}

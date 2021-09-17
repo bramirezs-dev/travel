@@ -1,0 +1,17 @@
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\bin\Debug\net5.0\Travel.Infraestructure.Persistence.deps.json
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\bin\Debug\net5.0\Travel.Infraestructure.Persistence.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\bin\Debug\net5.0\ref\Travel.Infraestructure.Persistence.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\bin\Debug\net5.0\Travel.Infraestructure.Persistence.pdb
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\bin\Debug\net5.0\Travel.Application.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\bin\Debug\net5.0\Travel.Domain.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\bin\Debug\net5.0\Travel.Application.pdb
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\bin\Debug\net5.0\Travel.Domain.pdb
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\obj\Debug\net5.0\Travel.Infraestructure.Persistence.csproj.AssemblyReference.cache
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\obj\Debug\net5.0\Travel.Infraestructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\obj\Debug\net5.0\Travel.Infraestructure.Persistence.AssemblyInfoInputs.cache
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\obj\Debug\net5.0\Travel.Infraestructure.Persistence.AssemblyInfo.cs
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\obj\Debug\net5.0\Travel.Infraestructure.Persistence.csproj.CoreCompileInputs.cache
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\obj\Debug\net5.0\Travel.Infraestructure.Persistence.csproj.CopyComplete
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\obj\Debug\net5.0\Travel.Infraestructure.Persistence.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\obj\Debug\net5.0\ref\Travel.Infraestructure.Persistence.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Infraestructure.Persistence\obj\Debug\net5.0\Travel.Infraestructure.Persistence.pdb

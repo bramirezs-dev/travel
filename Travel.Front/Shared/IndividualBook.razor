@@ -1,0 +1,40 @@
+﻿@using Blazorise
+@inject NavigationManager navigationManager
+@*<div @onclick="NavigationDetails" class="container__individual-book">*@
+
+
+
+
+<div class="col container__individual-book" @onclick="NavigationDetails">
+    <div class="card h-100">
+        <img src="./images/BookGeneric1.jpg" class="card-img-top" alt="Image generic book">
+        <div class="card-body">
+            <h5 class="card-title" >@Book.Title</h5>
+            @if (Book.Synopsis.Length > 60)
+            {
+                <p class="card-text" >@Book.Synopsis.Substring(0, 60)...</p>
+            }
+            else
+            {
+                <p class="card-text" >@Book.Synopsis</p>
+            }
+
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Numero Paginas:@Book.NumberPages</small>
+        </div>
+    </div>
+</div>
+@*</div>*@
+
+
+
+@code {
+
+    [Parameter] public BookDTO Book { get; set; }
+
+    private void NavigationDetails()
+    {
+        navigationManager.NavigateTo($"/book/{Book.ISBNId}/{Book.Title}/Details");
+    }
+}

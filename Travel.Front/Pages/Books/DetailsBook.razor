@@ -1,0 +1,53 @@
+﻿@page "/book/{BookId:int}"
+@page "/book/{BookId:int}/{TitleBook}/Details"
+@inject HttpClient Http
+
+
+@if (BookDetails.Title != null)
+{
+<div class="card mb-3" style="margin-top: 20px; margin-right: 100px; margin-left: 100px;">
+    <img src="./images/BookGeneric.jpg" class="card-img-top" style="height:400px;" alt="imagen generic book">
+    <div class="card-body">
+        <h5 class="card-title">@BookDetails.Title</h5>
+        <p class="card-text">@BookDetails.Synopsis</p>
+        <h5 class="card-title">Autores</h5>
+        @foreach (var item in BookDetails.Author)
+        {
+            <p><strong>Nombre Completo:</strong>@item.Name @item.SureName</p>
+        }
+        <h5 class="card-title">Editorial</h5>
+        <p><strong>Nombre:</strong>@BookDetails.Editorial.Name</p>
+        <p><strong>Sede:</strong>@BookDetails.Editorial.Headquarters</p>
+        <p class="card-text"><small class="text-muted">Paginas:@BookDetails.NumberPages</small></p>
+    </div>
+</div>
+
+}
+else
+{
+    <Loading></Loading>
+}
+
+
+
+@code {
+
+    [Parameter] public int BookId { get; set; }
+    [Parameter] public string TitleBook { get; set; }
+    BookDetailsDTO BookDetails = new BookDetailsDTO();
+    ResponseSuccessful<BookDetailsDTO> ResponseSuccessful { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        ResponseSuccessful = await Http.GetFromJsonAsync<ResponseSuccessful<BookDetailsDTO>>("http://localhost:23369/api/BookDetails/GetbyId/" + BookId);
+
+        if (ResponseSuccessful.RequestResult)
+        {
+            BookDetails = ResponseSuccessful.Data;
+        }
+
+        
+    }
+
+
+}

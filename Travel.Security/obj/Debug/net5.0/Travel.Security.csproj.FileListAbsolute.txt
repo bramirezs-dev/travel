@@ -1,0 +1,17 @@
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\bin\Debug\net5.0\Travel.Security.deps.json
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\bin\Debug\net5.0\Travel.Security.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\bin\Debug\net5.0\ref\Travel.Security.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\bin\Debug\net5.0\Travel.Security.pdb
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\bin\Debug\net5.0\Travel.Application.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\bin\Debug\net5.0\Travel.Domain.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\bin\Debug\net5.0\Travel.Application.pdb
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\bin\Debug\net5.0\Travel.Domain.pdb
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\obj\Debug\net5.0\Travel.Security.csproj.AssemblyReference.cache
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\obj\Debug\net5.0\Travel.Security.GeneratedMSBuildEditorConfig.editorconfig
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\obj\Debug\net5.0\Travel.Security.AssemblyInfoInputs.cache
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\obj\Debug\net5.0\Travel.Security.AssemblyInfo.cs
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\obj\Debug\net5.0\Travel.Security.csproj.CoreCompileInputs.cache
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\obj\Debug\net5.0\Travel.Security.csproj.CopyComplete
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\obj\Debug\net5.0\Travel.Security.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\obj\Debug\net5.0\ref\Travel.Security.dll
+D:\AccionesValores\Person\Codigo\net\Travel\Travel.Security\obj\Debug\net5.0\Travel.Security.pdb

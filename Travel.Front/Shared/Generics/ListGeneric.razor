@@ -1,0 +1,47 @@
+﻿@typeparam Titem
+@using Travel.Front.Shared.Generics
+
+@if (List == null)
+{
+    @if (Loading == null)
+    {
+        <Loading></Loading>
+    }
+    else
+    {
+        @Loading
+    }
+}
+else if (List.Count == 0)
+{
+
+
+    @if (NoThereRecords == null)
+    {
+        <text>No hay registros...</text>
+    }
+    else
+    {
+        @NoThereRecords
+    }
+}
+else
+{
+    @foreach (var item in List)
+    {
+
+        @ThereRecords(item);
+    }
+
+}
+
+
+
+
+@code {
+
+    [Parameter] public RenderFragment Loading { get; set; }
+    [Parameter] public RenderFragment NoThereRecords { get; set; }
+    [Parameter] public RenderFragment<Titem> ThereRecords { get; set; }
+    [Parameter] public List<Titem> List { get; set; }
+}

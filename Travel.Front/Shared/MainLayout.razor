@@ -1,0 +1,62 @@
+﻿@inherits LayoutComponentBase
+
+
+    
+<div class="page">
+    <div class="sidebar" style="background-color:@appState.ColorNav">
+        <CascadingValue Value="@appState">
+            <NavMenu />
+        </CascadingValue>
+    </div>
+
+    <div class="main">
+        <div class="top-row px-4" style="background-color:@appState.ColorBarra">
+            <span><strong>Elige tu Estilo:</strong></span>
+            <div class="thema-one" @onclick="ChangeColorOne">
+            </div>
+            <div class="thema-two" @onclick="ChangeColorTwo">
+            </div>
+
+
+            <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
+        </div>
+
+        <div class="content px-4" style="background-color:@appState.ColorMain;color:@appState.ColorWordMain">
+            <CascadingValue Value="@appState">
+                @Body
+            </CascadingValue>
+        </div>
+    </div>
+</div>
+
+
+@code{
+    AppState appState = new AppState();
+    public class AppState
+    {
+
+        public string ColorMain { get; set; } = "#F2F2F2";
+        public string ColorBarra { get; set; } = "#C4F2EA";
+        public string ColorNav { get; set; } = "#3E5159";
+        public string Size { get; set; } = "12px";
+        public string ColorWordNav { get; set; } = "#F2F2F2";
+        public string ColorWordMain { get; set; } = "#3E5159";
+    }
+
+    private void ChangeColorOne() {
+        appState.ColorBarra= "#C4F2EA";
+        appState.ColorMain = "#F2F2F2";
+        appState.ColorNav = "#3E5159";
+        appState.ColorWordMain = "#3E5159";
+        appState.ColorWordNav = "#F2F2F2";
+    }
+
+    private void ChangeColorTwo()
+    {
+        appState.ColorBarra = "#F2F2F2";
+        appState.ColorMain = "#3E5159";
+        appState.ColorNav = "#07D9B2";
+        appState.ColorWordMain = "#3E5159";
+        appState.ColorWordNav = "#3E5159";
+    }
+}
